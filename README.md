@@ -1,3 +1,3 @@
 # ufmg-information-systems
 
-Project to store my codes from ufmg course
+Project to store all my codes from ufmg course
