@@ -3,7 +3,7 @@
 #define PI 3.14
 
 float media (float a, float b, float c) {
-	return (a + b + c) / 3;
+	return ((a + b + c) / 3);
 }
 
 float mediaPonderada (float a, float b, float c) {
@@ -87,5 +87,6 @@ int main () {
   printf("i) Área do cilindro, calcula a área de um cilindro de raio r e altura h: %.2f\n", volumeCilindro(a, b));
   printf("j) Hipotenusa, calcula a hipotenusa de um triângulo retângulo com lados b e c. : %.2f\n", hipotenusa(b, c));
   printf("k) Raiz positiva, você devera ler os valores de x2 e x: %.2f\n", raizPositiva(a, b, c));
+
 	return 0;
 }
