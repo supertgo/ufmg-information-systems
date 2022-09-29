@@ -1,5 +1,12 @@
 {
   "conventionalCommits.scopes": [
     "PDS"
-  ]
+  ],
+  "files.associations": {
+    "cmath": "c",
+    "type_traits": "c",
+    "limits": "c",
+    "*.tcc": "c",
+    "typeinfo": "c"
+  }
 }
