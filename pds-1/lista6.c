@@ -52,18 +52,18 @@ int main () {
 
   int i = 0;
 
-  // if((fptr = fopen("lista6.txt", "w+")) == NULL) {
-  //   printf("Error! opening file");
-  //   exit(1);
-  // }
+   if((fptr = fopen("lista6.txt", "w+")) == NULL) {
+     printf("Error! opening file");
+     exit(1);
+   }
 
-  // printf("Leia o número de primos que você deseja que tenha no arquivo\n");
-  // scanf("%d", &limit);
+   printf("Leia o número de primos que você deseja que tenha no arquivo\n");
+   scanf("%d", &limit);
 
 
-  // write_primes(limit, fptr);
+  write_primes(limit, fptr);
 
-  // fclose(fptr);
+  fclose(fptr);
 
   ptr = fopen("lista6quest2.txt", "r");
   quest2Answers = fopen("lista6quest2answers.txt", "w+");
