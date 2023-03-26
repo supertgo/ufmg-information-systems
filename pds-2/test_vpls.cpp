@@ -1,6 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "../doctest.h"
 #include "vpl03.hpp"
+#include "vlp04.hpp"
 #include <vector>
 
 auto a = std::vector<std::vector<int>> {
@@ -24,6 +25,8 @@ auto result = std::vector<std::vector<int>> {
     {5215, 5380, 5545}
 };
 
+string sentence = "O dia 13 de Fevereiro amanheceu com 13,45mm de chuva e 5+1,61 quartos de água.";
+
 TEST_CASE("should return the correct columns number") {
     // CHECK(matrix_multiplication(a, b) == result);
     CHECK(number_of_columns(a) == 5);
@@ -45,4 +48,9 @@ TEST_CASE("should return the correct matrix after the multiplication") {
             CHECK(product[i][j] == result[i][j]);
         }
     }
+}
+
+
+TEST_CASE("should return the correct string, which is the most repeated one") {
+    CHECK(most_common_word(sentence) == "de");
 }
