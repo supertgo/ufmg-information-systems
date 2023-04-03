@@ -45,6 +45,16 @@ string most_common_word(string sentence) {
 
 
 int main() {
-  string sentence = "O dia 13 de Fevereiro amanheceu com 13,45mm de chuva e 5+1,61 quartos de água.";
-  cout << most_common_word(sentence);
+  string sentence, str = "";
+  while(cin >> sentence) {
+    if(sentence.empty()) {
+        break;
+    }
+
+    str += " " + sentence;
+  }
+
+  cout << most_common_word(str) << endl;
+  
+  return 0;
 }
