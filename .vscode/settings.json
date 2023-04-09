@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
-    "PDS"
+    "PDS",
+    "MD"
   ],
   "files.associations": {
     "cmath": "c",
