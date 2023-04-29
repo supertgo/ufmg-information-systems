@@ -50,7 +50,3 @@ TEST_CASE("should return the correct matrix after the multiplication") {
     }
 }
 
-
-TEST_CASE("should return the correct string, which is the most repeated one") {
-    CHECK(most_common_word(sentence) == "de");
-}

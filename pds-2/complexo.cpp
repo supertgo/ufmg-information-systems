@@ -8,16 +8,16 @@ Complexo::Complexo() {
 }
 
 Complexo::Complexo(double a, double b) {
-  real_ = a;
-  imag_ = b;
+  real_ = std::sqrt(a * a + b * b);
+  imag_ = atan2(b, a);
 }
 
 double Complexo::real() {
-  return real_;
+  return real_ * std::cos(imag_);
 }
 
 double Complexo::imag() {
-  return imag_;
+  return real_ * std::sin(imag_);
 }
 
 bool Complexo::igual(Complexo x) {
@@ -30,43 +30,35 @@ void Complexo::Atribuir(Complexo x) {
 }
 
 double Complexo::modulo() {
-  double mod = sqrt((real_ * real_) + (imag_ * imag_));
-  return 0;
+  return real_;
 }
 
 Complexo Complexo::conjugado() {
-  Complexo c;
-  c.real_ = real_;
-  c.imag_ = (-1) * imag_;
-  return c;
+  return Complexo(real_, -imag_);
 }
 
 Complexo Complexo::simetrico() {
-  Complexo c;
-  c.real_ = (-1) * real_;
-  c.imag_ = (-1) * imag_;
-  return c;
+  return Complexo(-real_, -imag_);
 }
 
 Complexo Complexo::inverso() {
-  Complexo i;
-  i.real_ = 1/real_;
-  i.imag_ = imag_;
-  return i;
+  double mod = real_ * real_ + imag_ * imag_;
+  return Complexo(real_ / mod, -imag_ / mod);
 }
 
 Complexo Complexo::somar(Complexo y) {
   Complexo s;
-  s.real_ = real_ + y.real_;
-  s.imag_ = imag_ + y.imag_;
+  s.real_ = real_ * std::cos(imag_) + y.real_ * std::cos(y.imag_);
+  s.imag_ = real_ * std::sin(imag_) + y.real_ * std::sin(y.imag_);
 
   return s;
 }
 
 Complexo Complexo::subtrair(Complexo y) {
   Complexo s;
-  s.real_ = real_ - y.real_;
-  s.imag_ = imag_ - y.imag_;
+  s.real_ = real_ * std::cos(imag_) - y.real_ * std::cos(y.imag_);
+  s.imag_ = real_ * std::sin(imag_) - y.real_ * std::sin(y.imag_);
+  
   return s;
 }
 
@@ -79,13 +71,10 @@ Complexo Complexo::multiplicar(Complexo y) {
 }
 
 Complexo Complexo::dividir(Complexo y) {
-  Complexo d;
-  Complexo conjugado_y = y.conjugado();
-  Complexo numerador = multiplicar(conjugado_y);
   double denominador = y.real_ * y.real_ + y.imag_ * y.imag_;
+  double a = (real_ * y.real_ + imag_ * y.imag_) / denominador;
+  double b = (imag_ * y.real_ - real_ * y.imag_) / denominador;
 
-  d.real_ = (numerador.real_ / denominador, numerador.imag_ / denominador);
-
-  return d;
+  return Complexo(a, b);
 }
 
