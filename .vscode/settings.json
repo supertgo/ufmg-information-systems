@@ -10,6 +10,10 @@
     "*.tcc": "c",
     "typeinfo": "c",
     "iostream": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "string.h": "c",
+    "stdbool.h": "c",
+    "math.h": "c",
+    "sdl.h": "c"
   }
 }

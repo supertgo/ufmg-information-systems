@@ -55,6 +55,11 @@ void Fila::Remover() {
 }
 
 Fila::~Fila() {
-  delete[] primeiro_;
-  delete[] ultimo_;
+  No *it = primeiro_;
+  
+  while (it != nullptr) {
+    No *next = it->proximo;
+    delete it;
+    it = next;
+  }
 }

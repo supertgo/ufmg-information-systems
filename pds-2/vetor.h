@@ -5,6 +5,25 @@
 
 using namespace std;
 
+// Lançada quando o intervalo [inicio, fim] não contém nenhum índice.
+struct IntervaloVazio {
+  int inicio; // Índice de início do vetor que lançou a excecao.
+  int fim; // Índice de fim do vetor que lançou a excecao.
+};
+
+//Lançada quando 'indice' não pertence a [inicio, fim].
+struct IndiceInvalido {
+  int inicio; // Índice de início do vetor que lançou a excecao.
+  int fim; // Índice de fim do vetor que lançou a excecao.
+  int indice; // Índice inválido.
+};
+
+// Lançada quando o valor de 'indice' é solicitado e o mesmo não foi previamente
+// inicializado.
+struct IndiceNaoInicializado {
+  int indice; // Índice do vetor que não foi inicializado.
+};
+
 // Define um vetor de std::string cujos índices variam em
 // qualquer intervalo, inclusive negativos.
 class Vetor {
@@ -27,7 +46,8 @@ class Vetor {
     ~Vetor();
   
   private:
-    int inicio_;  // Primeiro índice válido do vetor.
+    int inicio_;
+    int fim_;  // Primeiro índice válido do vetor.
     std::string* elementos_;  // Elementos do vetor.
 };
 
