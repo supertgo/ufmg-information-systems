@@ -1,0 +1,25 @@
+1) A variável é inicializada em cada iteração do for. 
+
+
+2) 
+
+3) Inicializar a variável antes do for.
+
+4) 
+==63990== Memcheck, a memory error detector
+==63990== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==63990== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==63990== Command: ./c15correto
+==63990== 
+==63990== 
+==63990== HEAP SUMMARY:
+==63990==     in use at exit: 0 bytes in 0 blocks
+==63990==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==63990== 
+==63990== All heap blocks were freed -- no leaks are possible
+==63990== 
+==63990== For lists of detected and suppressed errors, rerun with: -s
+==63990== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+

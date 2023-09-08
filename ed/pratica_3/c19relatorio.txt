@@ -1,0 +1,56 @@
+
+1)
+Se o número de caracteres for maior que 10 não caberá na variável line.
+
+2)
+==3163202== Memcheck, a memory error detector
+==3163202== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3163202== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==3163202== Command: ./a.out
+==3163202==
+enter a number:
+123131313
+^C==3163202==
+==3163202== Process terminating with default action of signal 2 (SIGINT)
+==3163202==    at 0x109204: sum_to_n (c19.c:11)
+==3163202==    by 0x109285: printSum (c19.c:22)
+==3163202==    by 0x1092DD: main (c19.c:28)
+==3163202==
+==3163202== HEAP SUMMARY:
+==3163202==     in use at exit: 2,048 bytes in 2 blocks
+==3163202==   total heap usage: 2 allocs, 0 frees, 2,048 bytes allocated
+==3163202==
+==3163202== LEAK SUMMARY:
+==3163202==    definitely lost: 0 bytes in 0 blocks
+==3163202==    indirectly lost: 0 bytes in 0 blocks
+==3163202==      possibly lost: 0 bytes in 0 blocks
+==3163202==    still reachable: 2,048 bytes in 2 blocks
+==3163202==         suppressed: 0 bytes in 0 blocks
+==3163202== Reachable blocks (those to which a pointer was found) are not shown.
+==3163202== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==3163202==
+==3163202== For lists of detected and suppressed errors, rerun with: -s
+==3163202== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+
+3) Colocar um tamanho grande para line
+
+4)
+==3161618== Memcheck, a memory error detector
+==3161618== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3161618== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==3161618== Command: ./a.out
+==3161618==
+==3161618==
+==3161618== HEAP SUMMARY:
+==3161618==     in use at exit: 0 bytes in 0 blocks
+==3161618==   total heap usage: 1 allocs, 1 frees, 40 bytes allocated
+==3161618==
+==3161618== All heap blocks were freed -- no leaks are possible
+==3161618==
+==3161618== For lists of detected and suppressed errors, rerun with: -s
+==3161618== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+

@@ -1,0 +1,77 @@
+    
+1) O código está atribuindo valores ao array em apenas nove casas mas lê como se fossem 10 no for abaixo.
+
+
+2) O relatório gerado pelas ferramentas de análise foi que há acesso em valores não inicializados, 
+podemos verificar isso pela saída do programa
+
+==76224== Memcheck, a memory error detector
+==76224== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==76224== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==76224== Command: ./c2
+==76224== 
+==76224== Conditional jump or move depends on uninitialised value(s)
+==76224==    at 0x48DF958: __vfprintf_internal (vfprintf-internal.c:1687)
+==76224==    by 0x48C9D3E: printf (printf.c:33)
+==76224==    by 0x1091EE: main (c2.c:11)
+==76224== 
+==76224== Use of uninitialised value of size 8
+==76224==    at 0x48C369B: _itoa_word (_itoa.c:179)
+==76224==    by 0x48DF574: __vfprintf_internal (vfprintf-internal.c:1687)
+==76224==    by 0x48C9D3E: printf (printf.c:33)
+==76224==    by 0x1091EE: main (c2.c:11)
+==76224== 
+==76224== Conditional jump or move depends on uninitialised value(s)
+==76224==    at 0x48C36AD: _itoa_word (_itoa.c:179)
+==76224==    by 0x48DF574: __vfprintf_internal (vfprintf-internal.c:1687)
+==76224==    by 0x48C9D3E: printf (printf.c:33)
+==76224==    by 0x1091EE: main (c2.c:11)
+==76224== 
+==76224== Conditional jump or move depends on uninitialised value(s)
+==76224==    at 0x48E0228: __vfprintf_internal (vfprintf-internal.c:1687)
+==76224==    by 0x48C9D3E: printf (printf.c:33)
+==76224==    by 0x1091EE: main (c2.c:11)
+==76224== 
+==76224== Conditional jump or move depends on uninitialised value(s)
+==76224==    at 0x48DF6EE: __vfprintf_internal (vfprintf-internal.c:1687)
+==76224==    by 0x48C9D3E: printf (printf.c:33)
+==76224==    by 0x1091EE: main (c2.c:11)
+==76224== 
+0 1 2 3 4 5 6 7 8 31 
+==76224== 
+==76224== HEAP SUMMARY:
+==76224==     in use at exit: 0 bytes in 0 blocks
+==76224==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==76224== 
+==76224== All heap blocks were freed -- no leaks are possible
+==76224== 
+==76224== Use --track-origins=yes to see where uninitialised values come from
+==76224== For lists of detected and suppressed errors, rerun with: -s
+==76224== ERROR SUMMARY: 7 errors from 5 contexts (suppressed: 0 from 0)
+
+3) Nesse caso tive que aumentar o limite superior do for, pois o for de baixo acessa as 10 posições do vetor
+  for (i = 0; i < 10; i++)
+    a[i] = i;
+
+4) Após corrigir o erro, não foi identificado mais nenhum problema pelas ferramentas de análise
+==76183== Memcheck, a memory error detector
+==76183== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==76183== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==76183== Command: ./c2correto
+==76183== 
+0 1 2 3 4 5 6 7 8 9 
+==76183== 
+==76183== HEAP SUMMARY:
+==76183==     in use at exit: 0 bytes in 0 blocks
+==76183==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==76183== 
+==76183== All heap blocks were freed -- no leaks are possible
+==76183== 
+==76183== For lists of detected and suppressed errors, rerun with: -s
+==76183== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+
+
+
+

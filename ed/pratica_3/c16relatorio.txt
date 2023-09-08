@@ -1,0 +1,41 @@
+1) Divisão por zero
+
+2) ==64077== Memcheck, a memory error detector
+==64077== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==64077== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==64077== Command: ./c16correto
+==64077== 
+==64077== 
+==64077== Process terminating with default action of signal 8 (SIGFPE)
+==64077==  Integer divide by zero at address 0x1003ADB061
+==64077==    at 0x10913B: actual_calc (c16correto.c:6)
+==64077==    by 0x109170: calc (c16correto.c:15)
+==64077==    by 0x109189: main (c16correto.c:20)
+==64077== 
+==64077== HEAP SUMMARY:
+==64077==     in use at exit: 0 bytes in 0 blocks
+==64077==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==64077== 
+==64077== All heap blocks were freed -- no leaks are possible
+==64077== 
+==64077== For lists of detected and suppressed errors, rerun with: -s
+==64077== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+3) Inicializar a variável b com 1 na primeira divisão
+
+4)
+==64114== Memcheck, a memory error detector
+==64114== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==64114== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==64114== Command: ./c16correto
+==64114== 
+==64114== 
+==64114== HEAP SUMMARY:
+==64114==     in use at exit: 0 bytes in 0 blocks
+==64114==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==64114== 
+==64114== All heap blocks were freed -- no leaks are possible
+==64114== 
+==64114== For lists of detected and suppressed errors, rerun with: -s
+==64114== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

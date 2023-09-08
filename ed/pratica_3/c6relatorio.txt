@@ -1,0 +1,58 @@
+1) O Código não estava atualizando o valor de array->data pois que está sendo alterado é o dPtr e não o array->data.
+
+2) O valgrind afirma que alguns blocos estão sendo perdidos durante, não estão sendo limpos com o free().
+Isso acontou pois o ponteiro não estava diretamente sendo acessado pelo array, e sim por  uma copia do mesmo.
+==81911== Memcheck, a memory error detector
+==81911== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==81911== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==81911== Command: ./c6
+==81911== 
+==81911== Invalid free() / delete / delete[] / realloc()
+==81911==    at 0x483F2BB: free (vg_replace_malloc.c:974)
+==81911==    by 0x109215: main (c6.c:21)
+==81911==  Address 0x4a5d090 is 0 bytes inside a block of size 40 free'd
+==81911==    at 0x4841A67: realloc (vg_replace_malloc.c:1649)
+==81911==    by 0x1091B4: resizeArray (c6.c:12)
+==81911==    by 0x109202: main (c6.c:19)
+==81911==  Block was alloc'd at
+==81911==    at 0x4841853: calloc (vg_replace_malloc.c:1554)
+==81911==    by 0x1091EC: main (c6.c:18)
+==81911== 
+==81911== 
+==81911== HEAP SUMMARY:
+==81911==     in use at exit: 60 bytes in 1 blocks
+==81911==   total heap usage: 3 allocs, 3 frees, 116 bytes allocated
+==81911== 
+==81911== 60 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==81911==    at 0x4841A67: realloc (vg_replace_malloc.c:1649)
+==81911==    by 0x1091B4: resizeArray (c6.c:12)
+==81911==    by 0x109202: main (c6.c:19)
+==81911== 
+==81911== LEAK SUMMARY:
+==81911==    definitely lost: 60 bytes in 1 blocks
+==81911==    indirectly lost: 0 bytes in 0 blocks
+==81911==      possibly lost: 0 bytes in 0 blocks
+==81911==    still reachable: 0 bytes in 0 blocks
+==81911==         suppressed: 0 bytes in 0 blocks
+==81911== 
+==81911== For lists of detected and suppressed errors, rerun with: -s
+==81911== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+
+3) Ao remover o pointeiro que era a cópia do array e passar o array de fato, não houve mais problema no código.
+
+4)
+==81990== Memcheck, a memory error detector
+==81990== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==81990== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==81990== Command: ./c6correto
+==81990== 
+==81990== 
+==81990== HEAP SUMMARY:
+==81990==     in use at exit: 0 bytes in 0 blocks
+==81990==   total heap usage: 3 allocs, 3 frees, 116 bytes allocated
+==81990== 
+==81990== All heap blocks were freed -- no leaks are possible
+==81990== 
+==81990== For lists of detected and suppressed errors, rerun with: -s
+==81990== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+

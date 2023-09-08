@@ -1,0 +1,49 @@
+1) O código parece estar acessando memória que não foi alocad
+
+
+2) Foi identificado uma escrita inválida de tamanho 4 na linha 9 da main
+==75620== Memcheck, a memory error detector
+==75620== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==75620== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==75620== Command: ./c1
+==75620== 
+==75620== Invalid write of size 4
+==75620==    at 0x1091B8: main (c1.c:9)
+==75620==  Address 0x4a5d068 is 0 bytes after a block of size 40 alloc'd
+==75620==    at 0x483C815: malloc (vg_replace_malloc.c:431)
+==75620==    by 0x109185: main (c1.c:6)
+==75620== 
+==75620== 
+==75620== HEAP SUMMARY:
+==75620==     in use at exit: 0 bytes in 0 blocks
+==75620==   total heap usage: 1 allocs, 1 frees, 40 bytes allocated
+==75620== 
+==75620== All heap blocks were freed -- no leaks are possible
+==75620== 
+==75620== For lists of detected and suppressed errors, rerun with: -s
+==75620== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+
+3)  Para corrigir o código, basta substituir o limite superior no for: for (i = 0; i < 10; i++){
+
+
+4) Após corrigir o erro, não foi identificado mais nenhum problema pelas ferramentas de análise
+==76041== Memcheck, a memory error detector
+==76041== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==76041== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==76041== Command: ./c1correto
+==76041== 
+==76041== 
+==76041== HEAP SUMMARY:
+==76041==     in use at exit: 0 bytes in 0 blocks
+==76041==   total heap usage: 1 allocs, 1 frees, 40 bytes allocated
+==76041== 
+==76041== All heap blocks were freed -- no leaks are possible
+==76041== 
+==76041== For lists of detected and suppressed errors, rerun with: -s
+==76041== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+
+
+
+
