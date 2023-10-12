@@ -1,0 +1,4335 @@
+cmd: ./matop -m -x 25 -y 25
+events: Ir
+fl=/build/glibc-SzIz7B/glibc-2.31/csu/../csu/libc-start.c
+fn=(below main)
+137 14
+141 4
+237 2
+238 3
+260 4
+263 2
+264 5
+268 4
+283 2
+295 3
+296 2
+301 2
+302 2
+305 2
+308 6
+342 2
+fl=/build/glibc-SzIz7B/glibc-2.31/csu/init-first.c
+fn=_init
+52 4
+55 4
+62 5
+67 1
+68 1
+69 2
+77 2
+80 1
+85 2
+fl=/build/glibc-SzIz7B/glibc-2.31/ctype/ctype-info.c
+fn=__ctype_init
+29 1
+31 7
+33 4
+35 4
+36 1
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../elf/dl-runtime.c
+fn=_dl_fixup
+66 8
+68 2
+69 4
+72 10
+73 14
+75 6
+80 4
+84 4
+86 8
+88 6
+92 4
+93 8
+101 2
+102 6
+112 22
+116 10
+126 18
+133 2
+141 8
+145 6
+149 6
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../elf/dl-sysdep.c
+fn=_dl_sysdep_start
+89 9
+90 2
+91 1
+113 1
+114 228
+117 2
+118 1
+120 141
+121 111
+124 1
+127 1
+130 1
+131 1
+133 1
+134 1
+154 1
+155 1
+157 1
+158 1
+160 2
+161 1
+166 2
+167 1
+182 2
+183 2
+223 1
+234 3
+235 2
+237 5
+249 3
+252 5
+253 1
+254 8
+fn=_dl_sysdep_start_cleanup
+258 1
+259 1
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../elf/dl-tls.c
+fn=_dl_add_to_slotinfo
+887 8
+893 1
+896 1
+897 1
+901 3
+942 2
+944 1
+945 5
+947 6
+fn=_dl_allocate_tls_init
+437 9
+438 2
+442 2
+444 2
+445 1
+448 3
+460 1
+465 8
+471 6
+474 3
+475 2
+481 3
+482 2
+484 6
+487 2
+488 2
+491 2
+492 4
+494 2
+495 2
+504 1
+507 9
+521 2
+524 9
+fn=_dl_allocate_tls_storage
+285 2
+286 3
+287 2
+290 1
+296 2
+332 4
+334 1
+345 1
+346 2
+347 3
+355 4
+356 1
+360 297
+379 1
+385 5
+fn=_dl_count_modids
+108 1
+113 2
+114 1
+129 2
+fn=_dl_determine_tlsoffset
+135 6
+136 2
+137 1
+138 1
+141 3
+144 2
+178 1
+180 10
+182 3
+184 3
+185 2
+187 2
+189 5
+201 6
+205 8
+207 2
+208 2
+217 1
+221 3
+272 1
+273 6
+fn=_dl_next_tls_modid
+48 1
+51 4
+99 1
+103 1
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../include/scratch_buffer.h
+fn=_dl_map_object_deps
+77 3
+78 1
+85 3
+131 6
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../misc/sbrk.c
+fn=sbrk
+32 5
+40 6
+44 2
+60 5
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/generic/dl-cache.h
+fn=_dl_load_cache_lookup
+153 5
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/generic/ldsodefs.h
+fn=_dl_relocate_object
+126 327
+fn=do_lookup_x
+126 294
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/posix/dl-fileid.h
+fn=_dl_map_object_from_fd
+37 12
+40 6
+41 2
+49 14
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/unix/sysv/linux/dl-osinfo.h
+fn=dl_main
+64 2
+77 1
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c
+fn=_dl_discover_osversion
+46 5
+48 3
+88 4
+103 1
+107 1
+108 1
+110 12
+112 6
+114 17
+116 1
+117 2
+120 3
+121 3
+122 3
+124 13
+129 2
+133 5
+fn=_dl_sysdep_start
+36 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/unix/sysv/linux/dl-vdso-setup.h
+fn=dl_main
+30 5
+33 1
+36 1
+39 1
+45 1
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/unix/sysv/linux/dl-vdso.h
+fn=dl_main
+40 1
+41 2
+55 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/unix/sysv/linux/x86/cpu-features.c
+fn=_dl_sysdep_start
+28 6
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/unix/sysv/linux/x86_64/brk.c
+fn=brk
+28 1
+31 5
+33 2
+39 1
+40 1
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/x86/cpu-features.c
+fn=_dl_sysdep_start
+49 4
+50 2
+51 6
+56 2
+57 6
+62 2
+63 6
+309 1
+310 1
+311 1
+322 3
+325 6
+326 1
+329 1
+331 6
+336 7
+338 10
+376 2
+390 1
+400 5
+425 6
+476 3
+477 1
+480 2
+481 1
+487 1
+488 1
+489 1
+490 1
+493 4
+495 6
+497 6
+499 6
+510 1
+511 2
+515 3
+534 3
+558 4
+560 4
+fn=get_common_indices.constprop.0
+71 2
+75 4
+78 5
+81 1
+82 4
+83 4
+84 4
+85 3
+86 2
+93 2
+94 7
+100 2
+101 7
+108 3
+112 2
+114 4
+118 2
+121 4
+124 2
+135 2
+139 3
+143 2
+147 2
+154 3
+225 2
+229 3
+230 2
+232 1
+233 1
+236 2
+238 1
+241 2
+291 3
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/x86/dl-cet.c
+fn=_dl_cet_check
+343 1
+344 1
+fn=dl_cet_check
+97 7
+99 2
+100 1
+102 1
+103 1
+106 4
+107 2
+112 1
+117 2
+326 8
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/x86/dl-hwcap.h
+fn=_dl_important_hwcaps
+57 6
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/x86/dl-procinfo.h
+fn=_dl_load_cache_lookup
+39 2
+42 15
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/x86/dl-prop.h
+fn=_dl_process_pt_note
+53 8
+59 4
+62 2
+67 16
+70 6
+71 4
+72 4
+76 6
+80 6
+83 6
+84 4
+88 2
+89 4
+93 4
+94 2
+97 6
+100 2
+101 8
+106 4
+113 4
+116 4
+120 2
+136 2
+137 8
+142 10
+143 2
+144 4
+145 4
+153 40
+156 6
+157 4
+159 16
+160 1
+163 4
+164 32
+170 14
+179 4
+182 4
+183 32
+fn=dl_main
+33 3
+59 6
+64 1
+65 1
+67 10
+70 4
+71 2
+72 2
+76 3
+80 3
+83 3
+84 2
+88 1
+89 3
+93 1
+94 4
+97 2
+100 1
+101 4
+106 2
+113 2
+116 1
+120 1
+136 1
+137 5
+142 4
+143 1
+144 2
+145 1
+189 2
+190 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/x86_64/dl-machine.h
+fn=_dl_fixup
+242 2
+fn=_dl_relocate_object
+76 14
+82 2
+86 3
+92 1
+100 3
+120 2
+122 2
+124 4
+131 7
+276 252
+297 252
+301 252
+308 5085
+309 1006
+312 348
+314 231
+317 2
+318 3
+319 2
+323 1
+330 3
+333 790
+429 51
+433 68
+438 51
+447 51
+457 321
+458 107
+481 12
+491 9
+497 6
+501 12
+503 6
+504 2
+536 3651
+541 2434
+542 3651
+552 94
+556 14
+559 21
+560 7
+577 80
+579 40
+580 40
+fn=_dl_start
+59 3
+301 27
+309 90
+312 18
+333 63
+353 18
+354 9
+421 1
+541 84
+542 126
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/../sysdeps/x86_64/dl-trampoline.h
+fn=_dl_runtime_resolve_xsave
+67 2
+72 2
+75 2
+77 2
+87 2
+93 2
+94 2
+95 2
+96 2
+97 2
+98 2
+99 2
+103 2
+104 2
+107 2
+108 2
+110 2
+111 2
+112 2
+113 2
+114 2
+115 2
+117 2
+124 2
+125 2
+126 2
+127 2
+132 2
+133 2
+134 2
+136 2
+137 2
+138 2
+139 2
+140 2
+141 2
+142 2
+144 2
+146 2
+150 2
+153 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/./dl-load.h
+fn=_dl_map_object_from_fd
+90 16
+91 6
+93 16
+94 5
+95 6
+96 4
+98 4
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/./dl-map-segments.h
+fn=_dl_map_object_from_fd
+50 4
+56 16
+60 4
+63 6
+64 4
+66 4
+80 2
+82 2
+90 40
+92 30
+94 60
+104 32
+110 4
+111 2
+112 6
+113 4
+115 4
+120 4
+123 4
+131 14
+132 4
+137 4
+141 8
+144 2
+149 8
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/./setup-vdso.h
+fn=dl_main
+24 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-addr.c
+fn=_dl_addr
+30 4
+34 2
+38 1
+39 1
+40 3
+42 3
+44 4
+45 3
+49 4048
+51 1011
+52 2022
+54 2757
+60 7074
+61 14148
+63 7043
+64 9308
+65 16996
+70 7074
+100 2
+101 1
+102 3
+105 2
+117 3
+126 12
+128 1
+131 3
+133 2
+135 2
+138 1
+141 2
+144 9
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-cache.c
+fn=_dl_cache_libcmp
+141 5
+142 64
+144 104
+146 2
+152 3
+153 3
+154 4
+156 4
+158 2
+164 50
+166 50
+167 8
+170 21
+171 63
+174 3
+fn=_dl_load_cache_lookup
+187 10
+195 2
+198 3
+201 5
+209 5
+210 8
+213 1
+218 1
+219 2
+270 5
+279 1
+281 1
+285 6
+293 6
+294 3
+308 120
+320 7
+324 2
+328 2
+336 19
+337 4
+338 1
+339 8
+fn=_dl_unload_cache
+348 2
+349 4
+351 2
+352 1
+354 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-debug.c
+fn=_dl_debug_initialize
+46 4
+49 8
+50 4
+54 14
+57 1
+58 6
+59 5
+60 2
+64 1
+fn=_dl_debug_state
+73 2
+74 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-deps.c
+fn=_dl_map_object_deps
+144 3
+145 6
+146 8
+148 3
+152 9
+159 12
+160 21
+176 10
+177 1
+180 1
+198 2
+199 3
+200 2
+202 10
+206 4
+209 4
+213 16
+214 25
+217 6
+221 6
+224 16
+226 6
+231 2
+232 2
+233 4
+234 4
+237 216
+238 104
+244 18
+246 2
+248 8
+249 4
+258 2
+260 4
+265 14
+268 2
+269 2
+270 2
+271 4
+273 2
+275 10
+279 6
+280 3
+282 147
+287 1
+303 8
+380 6
+433 12
+435 6
+438 8
+439 4
+445 2
+446 10
+447 10
+450 2
+451 2
+455 16
+457 4
+458 17
+464 6
+465 1
+468 5
+479 5
+481 2
+486 6
+487 1
+489 16
+491 4
+495 12
+499 8
+502 2
+553 3
+554 1
+555 3
+590 5
+594 5
+597 1
+599 2
+600 1
+601 2
+608 3
+611 3
+614 8
+fn=openaux
+61 6
+64 22
+65 2
+68 2
+69 4
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-environ.c
+fn=_dl_next_ld_env_entry
+28 2
+29 2
+32 220
+34 144
+35 36
+37 1
+40 2
+42 1
+45 71
+49 1
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-error-skeleton.c
+fn=_dl_catch_error
+225 10
+227 2
+228 2
+229 2
+230 2
+232 5
+fn=_dl_catch_exception
+175 24
+178 6
+199 3
+200 6
+203 6
+206 21
+208 9
+209 6
+210 12
+219 12
+fn=_dl_receive_error
+238 6
+239 1
+240 1
+243 1
+244 1
+246 1
+248 1
+249 1
+250 4
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-fini.c
+fn=_dl_fini
+30 9
+47 6
+50 7
+53 2
+55 1
+58 2
+60 6
+65 1
+68 17
+73 14
+75 8
+77 8
+79 8
+80 4
+81 4
+85 4
+87 6
+88 6
+94 10
+104 2
+109 20
+111 4
+113 12
+116 8
+119 12
+120 6
+123 4
+134 8
+135 2
+136 4
+137 20
+138 2
+142 4
+143 6
+149 24
+168 4
+174 6
+180 2
+187 8
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-hwcaps.c
+fn=_dl_important_hwcaps
+42 14
+43 8
+45 2
+46 3
+55 17
+56 8
+57 1
+65 3
+148 19
+149 1
+185 12
+186 10
+188 1
+189 2
+190 13
+193 3
+195 1
+196 2
+197 4
+200 2
+201 1
+204 2
+207 5
+211 7
+212 2
+214 2
+215 8
+216 3
+217 4
+224 2
+230 11
+231 5
+232 5
+263 10
+266 4
+273 3
+276 2
+279 12
+282 11
+283 21
+284 7
+287 10
+289 6
+294 28
+295 24
+299 21
+302 24
+303 96
+304 48
+306 9
+309 3
+310 2
+311 19
+313 6
+314 2
+316 1
+317 4
+324 18
+325 4
+327 8
+330 3
+333 9
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-init.c
+fn=_dl_init
+30 23
+79 12
+80 1
+81 1
+84 3
+87 2
+92 2
+117 1
+118 17
+119 8
+125 8
+fn=call_init.part.0
+28 36
+36 12
+39 16
+40 3
+44 9
+45 3
+49 4
+58 14
+62 4
+68 6
+70 4
+71 19
+72 12
+74 24
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-load.c
+fn=_dl_dst_count
+231 12
+234 4
+237 4
+238 2
+257 14
+fn=_dl_init_paths
+681 10
+694 6
+698 1
+699 2
+700 2
+707 5
+708 4
+711 6
+713 2
+719 1
+720 1
+728 11
+730 8
+731 4
+733 5
+734 7
+735 7
+738 6
+739 24
+742 26
+748 1
+749 1
+753 1
+754 2
+756 4
+758 3
+775 1
+777 3
+791 2
+796 3
+827 1
+828 8
+fn=_dl_map_object
+659 9
+1927 30
+1929 2
+1935 6
+1936 12
+1939 42
+1944 49
+1946 35
+1950 12
+1951 18
+1954 2
+1955 4
+1956 8
+1972 12
+1982 6
+2016 2
+2018 10
+2022 4
+2024 2
+2031 4
+2035 5
+2040 3
+2041 1
+2043 4
+2055 4
+2056 8
+2057 1
+2066 2
+2073 2
+2074 1
+2082 1
+2096 2
+2098 3
+2102 3
+2104 2
+2108 2
+2116 3
+2139 7
+2143 3
+2144 2
+2161 2
+2167 1
+2168 4
+2169 2
+2170 3
+2174 5
+2177 2
+2189 8
+2191 4
+2235 4
+2236 30
+2238 27
+fn=_dl_map_object_from_fd
+866 28
+876 8
+877 2
+883 8
+901 29
+902 10
+920 4
+944 8
+954 4
+961 8
+994 4
+997 16
+998 4
+1009 6
+1010 8
+1011 4
+1013 6
+1014 8
+1015 2
+1018 17
+1019 6
+1030 4
+1032 2
+1034 42
+1035 2
+1036 2
+1042 160
+1043 222
+1049 4
+1054 4
+1055 8
+1060 2
+1061 1
+1066 40
+1071 56
+1079 24
+1080 48
+1081 80
+1082 16
+1084 16
+1088 16
+1089 36
+1093 16
+1094 64
+1107 3
+1111 1
+1112 2
+1113 1
+1116 5
+1117 2
+1120 1
+1125 4
+1132 8
+1140 4
+1141 2
+1144 8
+1146 2
+1149 36
+1157 4
+1170 4
+1180 18
+1192 8
+1201 6
+1208 4
+1210 4
+1229 6
+1248 4
+1250 10
+1298 6
+1299 2
+1302 8
+1311 4
+1313 8
+1315 4
+1331 4
+1335 4
+1336 4
+1353 4
+1354 2
+1357 4
+1362 4
+1372 4
+1381 4
+1382 4
+1387 2
+1394 6
+1398 6
+1417 18
+fn=expand_dynamic_string_token
+234 3
+237 2
+378 9
+392 2
+403 7
+fn=open_verify.constprop.0
+1466 11
+1505 3
+1536 5
+1538 2
+1543 2
+1549 3
+1550 2
+1555 6
+1557 2
+1559 3
+1561 2
+1567 2
+1583 19
+1657 2
+1662 2
+1664 4
+1670 2
+1676 5
+1677 4
+1681 16
+1682 13
+1698 52
+1699 24
+1700 8
+1704 8
+1710 4
+1711 32
+1721 26
+1729 18
+1731 2
+1732 18
+1735 6
+1740 1
+1741 4
+1744 2
+1747 2
+1748 4
+1749 1
+1750 3
+1751 5
+1761 3
+1765 9
+fn=open_verify.constprop.1
+1466 11
+1536 4
+1538 2
+1543 2
+1549 3
+1550 2
+1555 6
+1557 2
+1559 3
+1561 2
+1567 2
+1583 16
+1657 2
+1662 2
+1664 4
+1670 2
+1676 5
+1677 4
+1678 2
+1698 70
+1699 28
+1700 8
+1704 8
+1705 6
+1721 4
+1729 12
+1731 2
+1732 18
+1735 6
+1741 4
+1761 2
+1765 9
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-lookup.c
+fn=_dl_lookup_symbol_x
+581 216
+582 6332
+583 7240
+841 1512
+843 216
+844 216
+847 108
+851 408
+853 648
+854 540
+860 276
+861 1826
+866 216
+868 60
+885 10
+886 20
+890 784
+930 392
+944 294
+945 2
+947 392
+952 98
+954 972
+fn=_dl_setup_hash
+961 4
+964 12
+966 4
+968 8
+969 4
+970 4
+972 12
+973 4
+974 12
+976 4
+977 8
+979 4
+981 12
+986 4
+fn=check_match
+75 1300
+78 600
+91 588
+94 412
+98 98
+99 196
+101 192
+120 192
+121 768
+122 480
+149 4
+151 12
+152 8
+160 102
+167 600
+fn=do_lookup_x
+294 686
+325 18
+368 1512
+369 108
+375 108
+379 674
+382 674
+386 1010
+390 670
+394 670
+400 1005
+404 335
+405 335
+408 1005
+409 1005
+412 335
+413 670
+415 335
+416 216
+417 670
+420 1675
+423 2345
+426 202
+427 303
+428 202
+430 202
+433 995
+435 300
+436 2712
+437 200
+440 304
+443 303
+451 540
+474 6
+482 196
+533 196
+536 744
+540 30
+552 490
+554 196
+571 717
+574 10
+575 864
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-minimal.c
+fn=calloc
+92 16
+96 8
+99 16
+100 40
+103 8
+fn=free
+109 2
+111 8
+fn=malloc
+49 95
+50 76
+55 3
+56 2
+57 2
+61 57
+64 129
+69 4
+70 4
+72 1
+73 8
+75 2
+77 2
+79 4
+82 19
+83 19
+85 76
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-misc.c
+fn=_dl_name_match_p
+282 84
+283 70
+284 17
+286 14
+288 58
+289 90
+292 15
+294 11
+295 56
+fn=_dl_sysdep_read_whole_file
+44 9
+47 3
+48 2
+50 7
+52 2
+55 2
+57 8
+68 3
+71 7
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-object.c
+fn=_dl_add_to_namespace_list
+31 18
+33 9
+35 20
+38 20
+40 2
+42 2
+45 2
+46 9
+47 6
+48 6
+50 6
+51 9
+fn=_dl_new_object
+59 39
+62 9
+64 2
+65 6
+69 2
+74 1
+77 18
+89 15
+92 6
+95 3
+96 9
+100 6
+101 24
+103 3
+116 21
+122 1
+124 21
+127 6
+128 6
+129 3
+133 3
+136 66
+138 16
+146 6
+147 3
+150 1
+152 18
+154 8
+157 8
+161 8
+165 10
+167 1
+173 1
+176 6
+186 9
+188 10
+192 8
+196 6
+197 8
+205 2
+209 2
+242 8
+247 84
+248 84
+250 4
+253 2
+256 2
+260 27
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-open.c
+fn=_dl_find_dso_for_object
+201 9
+205 3
+206 10
+207 12
+208 2
+211 2
+215 7
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-reloc.c
+fn=_dl_relocate_object
+148 52
+158 6
+159 12
+163 8
+164 20
+170 8
+176 20
+177 8
+180 9
+187 16
+227 12
+255 188
+258 16
+282 4
+285 8
+302 12
+304 32
+310 24
+313 8
+317 8
+318 24
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-sort-maps.c
+fn=_dl_sort_maps
+28 26
+30 4
+33 8
+34 40
+35 26
+39 36
+40 18
+42 12
+46 12
+54 48
+56 18
+57 12
+59 18
+60 12
+90 21
+115 30
+118 36
+122 16
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-tunables.c
+fn=__GI___tunables_init
+67 365
+70 144
+73 6237
+77 144
+82 432
+278 5
+287 9
+310 7488
+316 9360
+328 288
+362 8
+fn=__tunable_get_val
+368 20
+371 194
+380 23
+390 17
+391 17
+397 100
+399 20
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-tunables.h
+fn=__GI___tunables_init
+119 5049
+120 2994
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/dl-version.c
+fn=_dl_check_all_versions
+362 6
+364 2
+366 17
+368 40
+371 7
+fn=_dl_check_map_versions
+37 24
+38 5
+39 35
+57 12
+65 12
+71 12
+87 4
+88 8
+90 4
+95 56
+109 36
+111 4
+114 34
+121 42
+125 14
+143 10
+156 40
+157 4
+165 4
+171 12
+173 8
+175 8
+176 12
+178 8
+181 6
+185 14
+201 4
+209 6
+210 2
+214 6
+218 42
+220 4
+222 10
+225 16
+228 12
+233 2
+237 8
+251 13
+254 8
+257 148
+260 111
+264 70
+268 6
+273 3
+274 15
+275 6
+285 3
+288 9
+290 9
+293 8
+297 6
+300 12
+302 16
+304 20
+305 12
+306 12
+307 12
+310 12
+315 2
+318 6
+328 9
+331 8
+335 35
+337 74
+341 35
+342 175
+343 105
+344 35
+347 111
+351 35
+357 36
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/do-rel.h
+fn=_dl_relocate_object
+47 24
+48 8
+50 5
+51 6
+58 24
+61 143
+63 188
+65 121
+74 2
+75 128
+76 80
+83 14
+84 7
+86 21
+98 21
+108 10
+111 3664
+112 2434
+118 21
+121 10
+124 370
+127 480
+136 480
+137 360
+138 540
+139 360
+143 15
+160 26
+162 24
+170 36
+171 18
+174 3
+fn=_dl_start
+83 1
+84 1
+111 129
+112 84
+116 2
+124 29
+136 27
+137 18
+139 18
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/get-dynamic-info.h
+fn=_dl_map_object_from_fd
+42 2
+46 2
+48 132
+50 84
+63 42
+64 28
+65 10
+67 2
+68 10
+69 2
+71 10
+72 8
+73 68
+74 42
+81 4
+101 7
+102 8
+103 8
+104 8
+106 8
+111 7
+112 7
+113 8
+118 6
+123 2
+130 4
+131 6
+149 6
+154 2
+156 2
+158 2
+160 2
+163 6
+165 3
+166 2
+175 2
+176 3
+180 2
+183 4
+fn=_dl_start
+48 57
+50 36
+63 21
+64 14
+65 5
+67 1
+68 5
+69 1
+71 5
+72 4
+73 16
+74 18
+81 2
+101 4
+102 4
+103 4
+104 4
+106 4
+111 4
+112 4
+113 4
+118 3
+123 2
+130 3
+131 3
+139 3
+142 3
+146 2
+147 2
+fn=dl_main
+33 1
+42 2
+46 1
+48 81
+50 52
+63 25
+64 17
+65 5
+68 5
+69 1
+71 5
+72 5
+73 21
+74 26
+81 3
+101 3
+102 4
+103 4
+104 4
+106 4
+111 4
+112 4
+113 4
+118 3
+123 2
+130 2
+131 3
+149 3
+154 2
+156 2
+158 2
+160 2
+161 2
+163 3
+165 3
+166 2
+175 2
+176 3
+180 2
+181 3
+183 2
+fl=/build/glibc-SzIz7B/glibc-2.31/elf/rtld.c
+fn=_dl_start
+66 8
+430 2
+431 2
+432 2
+433 2
+434 2
+443 1
+449 4
+451 2
+463 10
+504 1
+507 1
+518 2
+523 25
+525 1
+550 9
+fn=dl_main
+66 16
+73 12
+74 2
+82 8
+817 1
+819 1
+828 1
+830 1
+835 1
+1090 14
+1096 1
+1099 1
+1102 2
+1106 6
+1112 2
+1122 3
+1330 8
+1332 2
+1333 1
+1334 2
+1335 2
+1339 3
+1340 2
+1362 1
+1364 2
+1366 1
+1369 47
+1370 116
+1374 3
+1379 3
+1388 2
+1389 2
+1391 1
+1398 3
+1410 3
+1416 1
+1424 8
+1425 17
+1426 8
+1427 1
+1430 8
+1431 8
+1432 4
+1433 10
+1434 1
+1461 2
+1465 4
+1478 7
+1481 2
+1483 2
+1485 3
+1498 3
+1499 5
+1501 3
+1504 1
+1506 1
+1507 1
+1509 2
+1510 2
+1514 2
+1516 2
+1521 2
+1524 2
+1549 10
+1554 2
+1557 4
+1559 1
+1564 2
+1567 4
+1568 4
+1569 2
+1570 1
+1571 1
+1572 1
+1577 2
+1578 6
+1595 2
+1596 2
+1598 2
+1600 1
+1601 3
+1606 5
+1607 5
+1609 4
+1615 2
+1620 1
+1621 3
+1622 4
+1640 2
+1648 3
+1651 2
+1655 3
+1660 2
+1661 1
+1662 1
+1666 3
+1682 3
+1684 1
+1686 2
+1690 5
+1694 2
+1709 5
+1785 4
+1789 20
+1790 1
+1793 3
+1794 1
+1795 2
+1796 2
+1805 8
+1810 19
+1811 11
+1814 3
+1815 3
+1816 1
+1818 9
+1819 16
+1829 5
+1831 3
+1832 3
+1834 2
+1836 3
+1838 3
+1839 1
+1840 2
+1852 2
+1853 2
+1854 3
+1865 5
+1866 1
+1867 5
+1877 2
+1878 2
+1879 3
+1881 2
+1886 3
+2116 3
+2172 1
+2176 2
+2182 2
+2185 2
+2193 1
+2239 3
+2242 1
+2246 1
+2247 16
+2249 8
+2254 8
+2256 10
+2258 1
+2259 1
+2262 4
+2264 8
+2265 24
+2269 10
+2270 4
+2278 2
+2283 4
+2285 1
+2292 3
+2295 2
+2304 3
+2306 2
+2319 1
+2320 5
+2330 1
+2334 3
+2355 4
+2356 1
+2357 1
+2358 1
+2362 1
+2367 8
+2533 2
+2535 1
+2536 1
+2540 6
+2542 12
+2544 1
+2546 40
+2547 7
+2555 6
+2576 2
+2583 6
+2585 2
+2586 1
+2704 3
+2736 5
+fn=handle_preload_list
+168 3
+770 1
+774 1
+775 1
+776 1
+778 1
+780 6
+781 3
+789 4
+858 10
+859 1
+863 7
+866 4
+867 3
+869 6
+870 2
+876 1
+878 2
+880 2
+884 9
+fn=init_tls
+699 1
+701 2
+705 2
+711 2
+714 1
+715 3
+716 1
+720 1
+722 1
+726 2
+727 2
+728 12
+729 6
+730 12
+734 2
+736 1
+738 2
+741 1
+748 2
+749 2
+755 2
+758 7
+761 1
+764 3
+fn=map_doit
+606 3
+608 4
+609 6
+611 2
+fn=rtld_lock_default_lock_recursive
+801 5
+802 5
+803 5
+fn=rtld_lock_default_unlock_recursive
+807 5
+808 5
+809 5
+fn=version_check_doit
+639 3
+641 6
+645 2
+fl=/build/glibc-SzIz7B/glibc-2.31/io/../sysdeps/unix/sysv/linux/access.c
+fn=access
+25 1
+27 7
+31 1
+fl=/build/glibc-SzIz7B/glibc-2.31/io/../sysdeps/unix/sysv/linux/close_nocancel.c
+fn=__GI___close_nocancel
+25 3
+26 12
+27 3
+fl=/build/glibc-SzIz7B/glibc-2.31/io/../sysdeps/unix/sysv/linux/open64_nocancel.c
+fn=__open_nocancel
+34 12
+37 21
+45 21
+47 3
+fl=/build/glibc-SzIz7B/glibc-2.31/io/../sysdeps/unix/sysv/linux/pread64_nocancel.c
+fn=__pread64_nocancel
+29 12
+30 24
+31 6
+fl=/build/glibc-SzIz7B/glibc-2.31/io/../sysdeps/unix/sysv/linux/read_nocancel.c
+fn=__read_nocancel
+25 2
+26 8
+27 2
+fl=/build/glibc-SzIz7B/glibc-2.31/io/../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+fn=_fxstat
+33 16
+34 8
+35 16
+39 4
+fl=/build/glibc-SzIz7B/glibc-2.31/io/../sysdeps/unix/sysv/linux/write.c
+fn=write
+25 26
+26 182
+27 26
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/../include/sys/sysmacros.h
+fn=_IO_file_doallocate
+47 6
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/../sysdeps/unix/sysv/linux/x86/lowlevellock.h
+fn=_IO_cleanup
+47 4
+fn=_IO_flush_all_lockp
+47 2
+fn=putchar
+47 52
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/filedoalloc.c
+fn=_IO_file_doallocate
+78 9
+84 9
+86 4
+89 2
+91 2
+94 2
+97 4
+101 3
+102 2
+104 4
+105 1
+106 8
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/fileops.c
+fn=_IO_do_write@@GLIBC_2.2.5
+424 443
+426 185
+427 209
+434 52
+441 104
+449 130
+450 130
+452 104
+453 52
+454 26
+455 52
+456 78
+fn=_IO_file_overflow@@GLIBC_2.2.5
+732 18925
+733 15140
+740 22707
+743 2
+745 2
+746 6
+755 2
+764 4
+769 9
+771 3
+772 5
+773 1
+775 7570
+776 2
+777 1
+778 7568
+781 11352
+782 11352
+783 15136
+784 104
+785 78
+787 3784
+788 15139
+fn=_IO_file_setbuf@@GLIBC_2.2.5
+382 3
+383 3
+388 4
+390 2
+391 2
+fn=_IO_file_stat
+1147 2
+1148 3
+fn=_IO_file_sync@@GLIBC_2.2.5
+793 5
+798 4
+800 1
+801 2
+812 2
+816 4
+fn=_IO_file_write@@GLIBC_2.2.5
+1174 182
+1176 208
+1178 26
+1180 52
+1181 78
+1182 52
+1187 26
+1188 26
+1191 78
+1194 234
+fn=_IO_file_xsputn@@GLIBC_2.2.5
+1198 16632
+1204 9766
+1205 2079
+1211 5608
+1213 2802
+1214 2802
+1217 11657
+1219 6978
+1228 3
+1232 1
+1234 1401
+1236 4203
+1237 1401
+1238 5604
+1240 5604
+1244 6
+1250 2
+1251 7
+1253 2
+1264 3
+1265 7
+1268 18711
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/genops.c
+fn=_IO_cleanup
+786 7
+787 10
+790 12
+799 9
+801 6
+807 19
+815 5
+817 2
+819 4
+820 1
+824 5
+826 3
+830 5
+831 12
+838 3
+842 8
+843 2
+863 11
+866 3
+878 12
+fn=_IO_default_setbuf
+330 4
+332 4
+337 3
+452 9
+453 5
+455 6
+457 2
+458 2
+462 1
+466 4
+467 1
+468 6
+fn=_IO_default_xsputn
+371 12
+374 2
+379 44
+393 1
+399 74
+401 8
+404 8
+fn=_IO_doallocbuf
+343 4
+344 2
+346 4
+347 5
+350 4
+fn=_IO_flush_all_lockp
+686 12
+687 1
+691 8
+692 10
+695 12
+697 3
+698 6
+699 2
+701 23
+709 6
+711 3
+715 8
+716 3
+720 12
+fn=_IO_setb
+329 8
+330 4
+332 3
+334 1
+335 5
+338 4
+fn=__overflow
+199 11328
+201 11328
+203 11328
+204 7552
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/iopadn.c
+fn=_IO_padn
+37 8788
+41 1352
+44 1352
+45 676
+54 2028
+62 1352
+64 3380
+65 676
+68 8112
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/libioP.h
+fn=_IO_cleanup
+941 3
+943 2
+944 2
+fn=_IO_default_setbuf
+941 3
+943 2
+944 2
+fn=_IO_default_xsputn
+941 3
+943 16
+944 16
+fn=_IO_do_write@@GLIBC_2.2.5
+944 52
+fn=_IO_doallocbuf
+941 3
+943 2
+944 2
+fn=_IO_file_doallocate
+941 3
+943 2
+944 2
+fn=_IO_file_xsputn@@GLIBC_2.2.5
+941 3
+943 2
+944 2
+fn=_IO_flush_all_lockp
+941 3
+fn=_IO_padn
+941 2028
+943 1352
+944 1352
+fn=__overflow
+941 11328
+943 7552
+944 7552
+fn=putchar
+884 52
+885 260
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/putchar.c
+fn=putchar
+25 182
+27 416
+28 182
+31 182
+fl=/build/glibc-SzIz7B/glibc-2.31/libio/vtables.c
+fn=check_stdfiles_vtables
+83 1
+84 4
+85 3
+86 3
+88 1
+fl=/build/glibc-SzIz7B/glibc-2.31/malloc/../sysdeps/unix/sysv/linux/x86/lowlevellock.h
+fn=tcache_init.part.0
+47 2
+fl=/build/glibc-SzIz7B/glibc-2.31/malloc/arena.c
+fn=malloc_hook_ini
+291 5
+fn=ptmalloc_init.part.0
+289 5
+294 1
+302 2
+303 7
+304 4
+308 4
+313 5
+314 4
+315 4
+316 4
+317 4
+318 4
+319 4
+320 4
+322 4
+323 4
+324 4
+327 4
+396 2
+397 2
+400 1
+401 6
+fn=sysmalloc
+536 3
+fl=/build/glibc-SzIz7B/glibc-2.31/malloc/hooks.c
+fn=malloc_hook_ini
+29 5
+30 2
+33 5
+fl=/build/glibc-SzIz7B/glibc-2.31/malloc/malloc.c
+fn=_int_malloc
+1208 4
+1210 10
+1637 4
+1868 6
+3513 18
+3553 4
+3577 4
+3589 3
+3635 4
+3637 3
+3638 2
+3640 14
+3697 32
+3698 3
+3716 7
+3717 6
+3718 6
+3722 4
+3728 6
+3795 6
+3917 4
+3919 4
+3922 3
+3990 4
+3991 4
+3992 4
+3993 4
+3994 6
+3999 4
+4003 14
+4006 12
+4103 2
+4104 4
+4106 4
+4109 7
+4111 1
+4112 2
+4113 1
+4114 8
+4116 2
+4119 1
+4126 3
+4141 5
+4142 2
+4147 20
+fn=malloc
+3023 5
+3031 2
+3032 2
+3033 2
+3082 3
+fn=malloc_hook_ini
+1208 2
+1210 8
+2978 4
+3032 2
+3044 4
+3047 2
+3048 5
+3049 3
+3056 3
+3058 4
+3059 7
+fn=ptmalloc_init.part.0
+1795 257
+1798 508
+1806 1
+1807 1
+1809 1
+fn=sysmalloc
+2255 8
+2275 2
+2286 2
+2287 5
+2302 4
+2368 1
+2369 3
+2370 1
+2379 4
+2385 3
+2388 3
+2449 9
+2460 1
+2468 3
+2470 6
+2471 1
+2474 4
+2477 2
+2478 2
+2524 6
+2525 2
+2526 1
+2532 2
+2535 4
+2575 3
+2597 2
+2598 6
+2600 2
+2601 2
+2613 2
+2621 2
+2622 9
+2660 1
+2661 4
+2662 1
+2673 2
+2705 2
+2706 1
+2711 2
+2714 2
+2716 3
+2717 1
+2718 3
+2719 3
+2720 2
+2722 1
+2728 9
+fn=tcache_init.part.0
+2972 1
+2981 7
+2982 4
+2983 2
+2991 4
+2998 2
+3000 2
+3001 88
+3004 2
+fl=/build/glibc-SzIz7B/glibc-2.31/malloc/morecore.c
+fn=__default_morecore
+46 4
+47 2
+49 6
+52 4
+fl=/build/glibc-SzIz7B/glibc-2.31/malloc/scratch_buffer_set_array_size.c
+fn=__libc_scratch_buffer_set_array_size
+30 10
+31 4
+34 4
+35 4
+45 4
+46 2
+63 8
+fl=/build/glibc-SzIz7B/glibc-2.31/misc/../sysdeps/unix/syscall-template.S
+fn=mprotect
+78 20
+79 4
+fn=munmap
+78 5
+79 1
+fl=/build/glibc-SzIz7B/glibc-2.31/misc/../sysdeps/unix/sysv/linux/mmap64.c
+fn=mmap
+48 55
+51 22
+54 44
+59 66
+61 33
+fl=/build/glibc-SzIz7B/glibc-2.31/misc/../sysdeps/unix/sysv/linux/x86_64/brk.c
+fn=brk
+28 2
+31 12
+33 4
+39 2
+40 2
+fl=/build/glibc-SzIz7B/glibc-2.31/misc/init-misc.c
+fn=__init_misc
+30 5
+31 5
+33 3
+37 5
+38 3
+40 4
+fl=/build/glibc-SzIz7B/glibc-2.31/misc/sbrk.c
+fn=sbrk
+32 10
+40 11
+41 6
+44 4
+48 6
+56 4
+60 10
+fl=/build/glibc-SzIz7B/glibc-2.31/nptl/../sysdeps/unix/sysv/linux/x86/lowlevellock.h
+fn=__unregister_atfork
+47 4
+fl=/build/glibc-SzIz7B/glibc-2.31/nptl/alloca_cutoff.c
+fn=__libc_alloca_cutoff
+27 625
+28 5625
+35 625
+fl=/build/glibc-SzIz7B/glibc-2.31/nptl/register-atfork.c
+fn=__unregister_atfork
+68 4
+79 6
+80 6
+82 2
+106 8
+107 4
+fl=/build/glibc-SzIz7B/glibc-2.31/posix/../sysdeps/unix/syscall-template.S
+fn=uname
+78 5
+79 1
+fl=/build/glibc-SzIz7B/glibc-2.31/posix/../sysdeps/unix/sysv/linux/_exit.c
+fn=_Exit
+27 3
+31 4
+33 2
+fl=/build/glibc-SzIz7B/glibc-2.31/posix/getopt.c
+fn=_getopt_internal
+705 8
+708 12
+709 12
+711 20
+715 8
+716 12
+717 12
+719 8
+720 8
+fn=_getopt_internal_r
+388 2
+390 2
+391 1
+394 3
+399 2
+404 10
+407 3
+409 1
+410 1
+473 44
+474 4
+476 8
+479 16
+481 24
+483 15
+487 12
+492 10
+498 12
+500 12
+503 8
+508 12
+511 8
+512 9
+517 32
+519 8
+527 26
+548 2
+550 2
+556 15
+566 6
+604 6
+610 15
+611 12
+614 15
+615 3
+617 15
+626 9
+634 2
+653 6
+655 6
+670 6
+677 4
+693 8
+694 2
+697 2
+699 36
+fn=getopt
+735 36
+fl=/build/glibc-SzIz7B/glibc-2.31/setjmp/../sysdeps/x86_64/bsd-_setjmp.S
+fn=_setjmp
+28 1
+30 1
+32 1
+fl=/build/glibc-SzIz7B/glibc-2.31/setjmp/../sysdeps/x86_64/setjmp.S
+fn=__sigsetjmp
+30 4
+32 4
+41 4
+42 8
+43 4
+47 4
+48 4
+49 4
+50 4
+51 4
+53 8
+55 4
+56 4
+57 4
+59 8
+61 4
+66 1
+67 1
+69 3
+72 3
+73 3
+80 3
+81 3
+84 1
+fl=/build/glibc-SzIz7B/glibc-2.31/setjmp/sigjmp.c
+fn=__sigjmp_save
+28 3
+29 1
+30 2
+34 3
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/../include/../locale/localeinfo.h
+fn=__printf_fp_l
+315 1875
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/../include/rounding-mode.h
+fn=__printf_fp_l
+52 1878
+58 628
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/../libio/libioP.h
+fn=__vfprintf_internal
+941 3380
+943 3482
+944 2807
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/../sysdeps/generic/get-rounding-mode.h
+fn=__printf_fp_l
+94 625
+95 4375
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/../sysdeps/pthread/allocalim.h
+fn=__printf_fp_l
+27 1250
+29 3125
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/../sysdeps/unix/sysv/linux/x86/lowlevellock.h
+fn=__vfprintf_internal
+47 1352
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/_itoa.c
+fn=_itoa_word
+165 100
+168 200
+170 100
+179 1220
+188 100
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/printf-parse.h
+fn=__vfprintf_internal
+76 2028
+78 11084
+111 6760
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/printf.c
+fn=printf
+28 13788
+32 4056
+33 4056
+37 3380
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/printf_fp.c
+fn=__printf_fp
+1266 1875
+1267 2500
+fn=__printf_fp_l
+208 10625
+225 625
+226 625
+249 625
+258 3750
+265 625
+268 2500
+271 1250
+289 1250
+297 625
+378 1875
+383 1250
+387 11250
+423 4375
+424 625
+425 1250
+428 11875
+429 10625
+430 10000
+436 625
+437 1250
+440 625
+450 1875
+451 4375
+454 4375
+462 2500
+463 625
+465 3750
+466 5625
+467 1250
+468 3125
+470 1250
+475 8125
+479 40625
+481 3750
+484 1875
+525 1250
+526 3750
+532 3750
+534 625
+537 1250
+538 1250
+539 1875
+542 12500
+545 3125
+546 2500
+547 3125
+548 2500
+551 8125
+553 23750
+554 1250
+560 1250
+564 9375
+570 1250
+596 1250
+599 4375
+615 1875
+617 1875
+618 3750
+620 3750
+634 1250
+804 625
+822 1875
+831 1250
+832 5000
+834 1250
+838 6
+844 1250
+846 625
+847 3125
+848 625
+849 625
+850 2500
+852 1875
+854 1250
+874 1250
+892 2500
+906 4375
+907 625
+913 625
+923 10625
+924 3750
+927 3125
+930 9375
+933 7500
+935 625
+937 3750
+939 1875
+951 1875
+952 2500
+953 10000
+954 3125
+956 1250
+957 3750
+958 1250
+960 5000
+969 1875
+970 2500
+972 5000
+973 122
+974 405
+977 257
+981 13
+994 1256
+998 314
+999 1816
+1001 42
+1002 42
+1004 637
+1008 622
+1009 15
+1019 628
+1022 9
+1025 15
+1028 6
+1030 9
+1088 1875
+1095 628
+1098 1875
+1111 1875
+1157 3750
+1159 5000
+1161 5625
+1162 7500
+1164 1250
+1166 1875
+1168 1250
+1171 3125
+1180 1875
+1187 1875
+1192 2500
+1194 2500
+1195 1250
+1199 2500
+1201 1250
+1212 10625
+1219 18750
+1220 11250
+1221 2500
+1222 6250
+1225 6250
+1229 3750
+1246 61875
+1249 1250
+1256 1875
+1260 7500
+fn=hack_digit
+162 15000
+165 11250
+167 18750
+175 7500
+179 30000
+181 15000
+182 3750
+184 7500
+185 30000
+196 11250
+197 7500
+198 16385
+202 18750
+fl=/build/glibc-SzIz7B/glibc-2.31/stdio-common/vfprintf-internal.c
+fn=__vfprintf_internal
+1289 10816
+1320 2028
+1324 676
+1328 3379
+1332 3380
+1343 2028
+1350 676
+1354 2704
+1358 676
+1369 6760
+1370 7436
+1373 8112
+1377 2028
+1381 5408
+1402 676
+1403 676
+1404 676
+1405 676
+1406 1352
+1407 676
+1408 2028
+1409 676
+1410 676
+1411 676
+1412 1352
+1415 676
+1416 676
+1419 676
+1420 2028
+1423 6760
+1543 1352
+1568 1352
+1571 7436
+1574 625
+1575 1875
+1601 1875
+1644 7500
+1649 625
+1677 676
+1687 59232
+1688 188
+1705 676
+1707 1352
+1715 676
+1719 14196
+1721 2029
+1741 8796
+1742 2028
+1745 8112
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/../stdlib/strtol.c
+fn=strtol
+105 2
+106 8
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/../stdlib/strtol_l.c
+fn=____strtol_l_internal
+226 20
+245 2
+246 4
+252 4
+280 2
+283 8
+292 12
+294 4
+298 2
+299 4
+304 4
+308 4
+318 4
+325 4
+328 8
+432 8
+434 26
+436 12
+450 4
+460 8
+464 12
+467 12
+472 8
+473 12
+478 4
+483 6
+489 4
+490 4
+492 6
+507 10
+525 16
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/../sysdeps/ieee754/dbl-64/dbl2mpn.c
+fn=__mpn_extract_double
+33 625
+35 625
+37 1875
+38 3125
+47 1875
+56 1875
+103 1250
+107 1250
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/../sysdeps/unix/sysv/linux/x86/lowlevellock.h
+fn=__cxa_atexit
+47 3
+fn=__cxa_finalize
+47 6
+51 2
+fn=__run_exit_handlers
+47 6
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/../sysdeps/x86_64/lshift.S
+fn=__mpn_lshift
+28 625
+29 625
+30 625
+32 625
+33 625
+34 625
+46 625
+47 625
+48 625
+49 625
+50 625
+51 625
+52 625
+58 625
+59 625
+60 625
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/../sysdeps/x86_64/mul_1.S
+fn=__mpn_mul_1
+31 4375
+32 4375
+35 4375
+36 4375
+37 4375
+38 4375
+39 4375
+41 4375
+42 4375
+44 4375
+45 4375
+46 4375
+47 4375
+48 3750
+50 3750
+51 3750
+52 3750
+53 3750
+79 625
+80 625
+81 625
+82 625
+83 625
+84 625
+85 625
+86 625
+87 625
+113 625
+114 625
+115 625
+117 625
+118 625
+119 625
+120 625
+121 625
+122 4375
+124 4375
+127 4375
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/../sysdeps/x86_64/rshift.S
+fn=__mpn_rshift
+28 1250
+29 1250
+30 1250
+31 1250
+44 1250
+45 1250
+61 1250
+62 1250
+63 1250
+64 1250
+65 1250
+66 1250
+67 1250
+72 1250
+73 1250
+74 1250
+75 1250
+76 1250
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/atoi.c
+fn=atoi
+26 4
+27 6
+28 4
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/cmp.c
+fn=__mpn_cmp
+31 1250
+35 2500
+37 1250
+38 1250
+39 2500
+47 6250
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/cxa_atexit.c
+fn=__cxa_atexit
+41 3
+43 3
+44 2
+46 2
+53 3
+55 1
+56 3
+58 1
+59 4
+69 6
+71 5
+fn=__new_exitfn
+82 5
+83 2
+88 2
+93 8
+95 4
+103 1
+124 1
+125 2
+138 1
+139 1
+143 5
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/cxa_finalize.c
+fn=__cxa_finalize
+30 18
+33 6
+36 12
+40 14
+94 14
+98 12
+106 4
+107 4
+109 8
+110 16
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/cxa_thread_atexit_impl.c
+fn=__call_tls_dtors
+145 4
+146 4
+164 4
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/divrem.c
+fn=__mpn_divrem
+46 48750
+47 3750
+49 7500
+62 3750
+63 3750
+65 7500
+67 90
+68 180
+71 11250
+72 28035
+73 10071
+76 7500
+79 3750
+81 3750
+234 33750
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/drand48-iter.c
+fn=__drand48_iterate
+31 1250
+36 4998
+38 5
+39 1
+47 8750
+49 2500
+51 1250
+53 2500
+56 2500
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/drand48.c
+fn=drand48
+24 6250
+27 5000
+29 1250
+30 6250
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/erand48_r.c
+fn=erand48_r
+27 7500
+31 3750
+39 10000
+40 7500
+43 3750
+45 1250
+46 5000
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/exit.c
+fn=__run_exit_handlers
+40 11
+45 3
+46 2
+56 8
+59 2
+61 5
+65 1
+66 4
+70 6
+72 2
+73 1
+76 4
+77 8
+103 1
+106 3
+108 3
+109 1
+112 3
+114 2
+120 2
+121 2
+126 5
+129 2
+130 13
+132 2
+fn=exit
+138 4
+139 4
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/getenv.c
+fn=getenv
+34 8
+35 2
+39 8
+42 3
+67 1
+72 1
+73 1
+75 290
+84 144
+91 9
+fl=/build/glibc-SzIz7B/glibc-2.31/stdlib/mul.c
+fn=__mpn_mul
+48 10625
+54 1250
+66 1250
+71 625
+72 1250
+81 625
+83 1875
+84 625
+88 1250
+142 6875
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../bits/stdlib-bsearch.h
+fn=intel_check_word.isra.0
+27 12
+28 12
+29 225
+31 162
+32 81
+37 12
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86/cacheinfo.c
+fn=handle_intel.constprop.0
+259 30
+261 3
+264 6
+270 6
+272 6
+273 3
+275 9
+281 15
+286 6
+288 6
+289 3
+293 18
+295 6
+298 21
+300 6
+319 33
+fn=init_cacheinfo
+488 8
+500 2
+502 6
+504 3
+506 3
+510 1
+511 3
+519 2
+530 1
+535 2
+539 2
+547 12
+550 13
+556 8
+559 26
+564 2
+568 3
+569 2
+573 6
+577 3
+580 3
+581 1
+586 4
+592 2
+600 9
+602 7
+604 7
+606 6
+609 2
+610 8
+612 4
+615 2
+620 1
+622 4
+623 2
+624 2
+627 2
+630 2
+633 1
+634 2
+637 1
+639 4
+640 1
+645 2
+651 2
+652 2
+653 2
+654 2
+691 4
+692 4
+696 2
+755 2
+758 2
+760 3
+761 1
+763 1
+764 3
+765 1
+768 2
+771 2
+773 3
+774 1
+776 1
+777 3
+778 1
+792 2
+794 6
+795 8
+fn=intel_check_word.isra.0
+119 162
+122 81
+128 42
+132 12
+134 3
+138 42
+140 60
+142 15
+144 30
+152 30
+161 13
+164 29
+167 24
+171 16
+173 46
+175 20
+177 12
+178 8
+179 2
+181 3
+183 6
+185 9
+186 12
+187 9
+188 15
+196 5
+203 48
+225 12
+255 36
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/../strchr.S
+fn=__strchr_sse2
+23 3
+24 3
+25 3
+26 3
+27 3
+28 3
+29 3
+30 3
+31 3
+32 3
+33 3
+34 3
+35 3
+36 3
+37 3
+38 3
+39 3
+40 3
+41 3
+45 3
+46 3
+47 3
+48 3
+50 3
+fn=__strchrnul_sse2
+23 1352
+24 1352
+25 1352
+26 1352
+27 1352
+28 1352
+29 1352
+30 1352
+31 1352
+32 1352
+33 1352
+34 1352
+35 1352
+36 1352
+37 1352
+38 1352
+39 1352
+40 1352
+41 1352
+43 1352
+50 1352
+fn=index
+23 5
+24 5
+25 5
+26 5
+27 5
+28 5
+29 5
+30 5
+31 5
+32 5
+33 5
+34 5
+35 5
+36 5
+37 5
+38 5
+39 5
+40 5
+41 3
+45 3
+46 3
+47 3
+48 3
+50 3
+54 2
+55 2
+56 2
+57 2
+58 2
+59 2
+60 2
+61 2
+62 2
+63 2
+64 2
+65 2
+66 2
+67 2
+68 2
+69 2
+70 2
+71 2
+72 2
+73 2
+74 2
+75 2
+76 2
+77 2
+129 2
+133 2
+134 2
+135 2
+136 2
+138 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/../strlen.S
+fn=__strlen_sse2
+41 627
+79 627
+80 627
+81 627
+82 627
+83 627
+84 627
+85 627
+87 627
+89 627
+120 627
+121 627
+122 627
+123 627
+124 627
+125 627
+127 627
+fn=strlen
+41 10
+79 10
+80 10
+81 10
+82 10
+83 10
+84 10
+85 10
+87 10
+89 10
+120 9
+121 9
+122 9
+123 9
+124 9
+125 3
+127 3
+131 6
+132 6
+133 6
+134 6
+135 6
+136 6
+137 6
+138 6
+139 6
+140 6
+141 6
+142 6
+147 48
+151 1
+152 14
+153 8
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/../strrchr.S
+fn=__strrchr_sse2
+23 1
+24 1
+25 1
+26 1
+27 1
+28 1
+29 1
+30 1
+31 1
+32 1
+33 1
+34 1
+35 1
+36 1
+37 1
+38 1
+39 1
+40 1
+41 1
+42 1
+43 1
+44 1
+45 1
+46 1
+47 1
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/ifunc-avx2.h
+fn=memchr
+30 5
+32 3
+fn=memrchr
+30 5
+32 3
+fn=rawmemchr
+30 5
+32 3
+fn=rindex
+30 5
+32 3
+fn=strchrnul
+30 5
+32 3
+fn=strlen
+30 5
+32 3
+fn=strnlen
+30 10
+32 6
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/ifunc-memcmp.h
+fn=bcmp
+32 3
+33 3
+34 2
+38 3
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/ifunc-memmove.h
+fn=memcpy@@GLIBC_2.14
+44 2
+45 3
+48 2
+49 2
+60 2
+68 2
+69 2
+71 5
+fn=memmove
+44 4
+45 6
+48 4
+49 4
+60 4
+68 4
+69 4
+71 10
+fn=mempcpy
+44 2
+45 3
+48 2
+49 2
+60 2
+68 2
+69 2
+71 5
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/ifunc-memset.h
+fn=memset
+42 5
+45 2
+46 2
+57 4
+65 4
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/ifunc-sse4_2.h
+fn=strcspn
+30 5
+fn=strpbrk
+30 5
+fn=strspn
+30 5
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/ifunc-strcasecmp.h
+fn=strcasecmp
+32 4
+fn=strcasecmp_l
+32 4
+fn=strncasecmp
+32 4
+fn=strncasecmp_l
+32 4
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/ifunc-strcpy.h
+fn=stpcpy
+34 3
+36 4
+39 3
+fn=stpncpy
+34 3
+36 4
+39 3
+fn=strcat
+34 3
+36 4
+39 3
+fn=strcpy
+34 6
+36 8
+39 6
+fn=strncpy
+34 3
+36 4
+39 3
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memchr.c
+fn=memchr
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memcmp.c
+fn=bcmp
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memcpy.c
+fn=memcpy@@GLIBC_2.14
+29 1
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+fn=__memcpy_sse2_unaligned_erms
+280 2026
+281 2026
+282 2026
+283 2026
+284 1976
+285 1976
+286 1321
+287 1321
+288 1321
+290 1321
+319 50
+320 50
+321 50
+322 50
+323 50
+326 655
+327 655
+328 655
+329 655
+330 655
+fn=__mempcpy_sse2_unaligned
+114 2026
+115 2026
+116 2026
+117 2026
+fn=memcpy
+127 14
+128 14
+134 22
+135 22
+136 11
+137 11
+142 7
+143 7
+144 7
+145 7
+150 7
+280 11
+281 11
+282 6
+283 6
+284 3
+285 3
+286 1
+287 1
+288 1
+290 1
+312 5
+313 5
+314 5
+315 5
+316 5
+319 3
+320 3
+321 3
+322 3
+323 3
+326 2
+327 2
+328 2
+329 2
+330 2
+340 4
+341 4
+342 4
+343 4
+365 4
+366 4
+367 4
+368 4
+369 4
+370 4
+371 4
+372 4
+374 4
+fn=memcpy@GLIBC_2.2.5
+127 1250
+128 1250
+134 3276
+135 3276
+136 1250
+137 1250
+142 1250
+143 1250
+144 1250
+145 1250
+150 1250
+fn=mempcpy
+114 8
+115 8
+116 8
+117 8
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memmove.c
+fn=memmove
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/mempcpy.c
+fn=mempcpy
+33 1
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memrchr.c
+fn=memrchr
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S
+fn=memset
+108 13
+109 65
+115 13
+116 13
+117 6
+118 6
+120 4
+121 4
+123 4
+188 2
+189 2
+199 2
+200 2
+201 2
+202 2
+203 2
+204 2
+205 2
+206 2
+207 2
+208 2
+209 2
+210 2
+211 2
+212 2
+214 34
+215 34
+216 34
+217 34
+218 34
+219 34
+220 34
+221 2
+236 7
+237 7
+238 7
+239 6
+240 6
+241 2
+242 2
+266 1
+267 1
+269 1
+272 4
+273 4
+275 4
+278 2
+279 2
+281 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/memset.c
+fn=memset
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/rawmemchr.c
+fn=rawmemchr
+31 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/stpcpy.c
+fn=stpcpy
+33 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/stpncpy.c
+fn=stpncpy
+31 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strcasecmp.c
+fn=strcasecmp
+31 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strcasecmp_l.c
+fn=strcasecmp_l
+31 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strcat.c
+fn=strcat
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strchr.c
+fn=index
+38 3
+40 4
+43 4
+49 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strchrnul.c
+fn=strchrnul
+31 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strcmp.c
+fn=strcmp
+39 3
+41 4
+44 3
+53 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strcpy.c
+fn=strcpy
+29 4
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strcspn.c
+fn=strcspn
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strlen.c
+fn=strlen
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strncase.c
+fn=strncasecmp
+31 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strncase_l.c
+fn=strncasecmp_l
+31 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strncmp.c
+fn=strncmp
+39 3
+41 4
+44 4
+45 2
+54 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strncpy.c
+fn=strncpy
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strnlen.c
+fn=strnlen
+31 4
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strpbrk.c
+fn=strpbrk
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strrchr.c
+fn=rindex
+28 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/multiarch/strspn.c
+fn=strspn
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/strcmp.S
+fn=strcmp
+111 173
+144 173
+145 173
+147 173
+148 173
+169 173
+170 173
+171 162
+172 162
+173 154
+174 154
+175 154
+176 154
+197 154
+198 154
+199 154
+200 154
+201 154
+202 154
+203 154
+208 8
+209 24
+218 27
+219 27
+220 27
+221 27
+222 27
+223 27
+224 27
+225 27
+226 23
+227 9
+228 9
+229 9
+231 23
+232 23
+233 23
+234 23
+235 23
+236 23
+246 4
+247 4
+248 4
+250 4
+256 4
+257 4
+258 4
+259 4
+260 4
+265 4
+267 1
+268 1
+269 2
+277 1
+278 1
+281 1
+282 1
+283 1
+284 1
+285 1
+286 1
+821 3
+822 3
+823 3
+824 3
+825 3
+827 3
+828 3
+829 3
+830 3
+831 3
+832 3
+833 3
+834 3
+838 3
+839 3
+840 3
+846 3
+847 3
+848 6
+852 3
+853 3
+856 3
+857 3
+858 3
+861 3
+862 3
+863 3
+869 3
+870 3
+871 3
+872 3
+873 3
+874 3
+946 3
+947 3
+948 3
+949 3
+950 3
+952 3
+953 3
+954 3
+955 3
+956 3
+957 3
+958 3
+959 3
+963 3
+964 3
+965 3
+971 3
+972 3
+973 6
+977 3
+978 3
+981 3
+982 3
+983 3
+986 3
+987 3
+988 3
+994 3
+995 3
+996 3
+997 3
+998 3
+999 3
+1006 1
+1007 1
+1009 1
+1010 1
+1012 1
+1013 1
+1014 1
+1017 1
+1018 1
+1019 1
+1025 1
+1026 1
+1027 1
+1028 1
+1029 1
+1030 1
+1071 1
+1072 1
+1073 1
+1074 1
+1075 1
+1077 1
+1078 1
+1079 1
+1080 1
+1081 1
+1082 1
+1083 1
+1321 2
+1322 2
+1323 2
+1324 2
+1325 2
+1327 2
+1328 2
+1329 2
+1330 2
+1331 2
+1332 2
+1333 2
+1334 1
+1338 1
+1339 1
+1340 1
+1346 1
+1347 1
+1348 2
+1352 1
+1353 1
+1356 1
+1357 1
+1358 1
+1361 1
+1362 1
+1363 1
+1369 1
+1370 1
+1371 1
+1372 1
+1373 1
+1374 1
+1446 1
+1447 1
+1448 1
+1449 1
+1450 1
+1452 1
+1453 1
+1454 1
+1455 1
+1456 1
+1457 1
+1458 1
+1571 4
+1572 4
+1573 4
+1574 4
+1575 4
+1577 4
+1578 4
+1579 4
+1580 4
+1581 4
+1582 4
+1583 4
+1584 3
+1588 3
+1589 3
+1590 3
+1596 3
+1597 3
+1598 6
+1602 3
+1603 3
+1606 3
+1607 3
+1608 3
+1611 3
+1612 3
+1613 3
+1619 3
+1620 3
+1621 3
+1622 3
+1623 3
+1624 3
+1696 2
+1697 2
+1698 2
+1699 2
+1700 2
+1702 2
+1703 2
+1704 2
+1705 2
+1706 2
+1707 2
+1708 2
+1709 2
+1713 2
+1714 2
+1715 2
+1721 2
+1722 2
+1723 4
+1727 2
+1728 2
+1731 2
+1732 2
+1733 2
+1736 2
+1737 2
+1738 2
+1744 2
+1745 2
+1746 2
+1747 2
+1748 2
+1749 2
+1821 1
+1822 1
+1823 1
+1824 1
+1825 1
+1827 1
+1828 1
+1829 1
+1830 1
+1831 1
+1832 1
+1833 1
+1946 1
+1947 1
+1948 1
+1949 1
+1950 1
+1952 1
+1953 1
+1954 1
+1955 1
+1956 1
+1957 1
+1958 1
+1959 1
+1963 1
+1964 1
+1965 1
+1971 1
+1972 1
+1973 2
+1977 1
+1978 1
+1981 1
+1982 1
+1983 1
+1986 1
+1987 1
+1988 1
+1994 1
+1995 1
+1996 1
+1997 1
+1998 1
+1999 1
+2071 5
+2072 5
+2073 5
+2074 5
+2075 5
+2077 5
+2078 5
+2079 5
+2080 5
+2081 5
+2082 5
+2083 5
+2200 14
+2202 27
+2203 27
+2204 27
+2205 27
+2206 18
+2211 173
+2217 173
+2218 173
+2226 173
+2227 173
+fl=/build/glibc-SzIz7B/glibc-2.31/string/../sysdeps/x86_64/strcspn.S
+fn=strcspn
+28 1
+30 1
+37 1
+38 1
+40 1
+41 1
+42 1
+43 1
+44 33
+47 3
+54 1
+55 1
+56 1
+57 1
+59 1
+60 1
+61 1
+62 1
+64 1
+65 1
+66 1
+75 3
+87 15
+89 15
+90 15
+91 15
+93 15
+94 15
+95 15
+97 14
+98 14
+99 14
+101 14
+102 14
+103 14
+107 1
+109 1
+116 1
+120 1
+fl=/build/glibc-SzIz7B/glibc-2.31/string/strdup.c
+fn=strdup
+40 10
+41 4
+42 4
+44 4
+47 8
+48 6
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/ifunc-avx2.h
+fn=wcschr
+30 10
+32 6
+fn=wcscmp
+30 6
+32 3
+fn=wcslen
+30 5
+32 3
+fn=wmemchr
+30 10
+32 6
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/ifunc-memcmp.h
+fn=wmemcmp
+32 3
+33 3
+34 2
+38 3
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/ifunc-wmemset.h
+fn=wmemset
+30 6
+32 10
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wcschr.c
+fn=wcschr
+31 4
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wcscmp.c
+fn=wcscmp
+30 1
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wcscpy.c
+fn=wcscpy
+37 5
+43 2
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wcslen.c
+fn=wcslen
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wcsnlen.c
+fn=wcsnlen
+38 3
+40 4
+43 4
+49 2
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wmemchr.c
+fn=wmemchr
+31 4
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wmemcmp.c
+fn=wmemcmp
+29 2
+fl=/build/glibc-SzIz7B/glibc-2.31/wcsmbs/../sysdeps/x86_64/multiarch/wmemset.c
+fn=wmemset
+31 6
+fl=/home/supertgo/programas/cursos/ufmg-information-systems/ed/pratica_4/src/mat.c
+fn=criaMatriz
+25 32
+27 8
+28 8
+29 8
+30 8
+33 12
+34 12
+36 12
+37 12
+fn=destroiMatriz
+245 15
+247 24
+250 30
+251 9
+fn=imprimeMatriz
+89 5
+93 4
+94 4
+97 4
+98 131
+99 125
+100 2
+103 131
+104 125
+105 3275
+106 10625
+108 50
+110 4
+fn=inicializaMatrizAleatoria
+57 10
+60 6
+62 262
+63 6550
+64 20000
+67 8
+fn=inicializaMatrizNula
+43 16
+46 2416
+47 483200
+48 2240000
+51 16
+fn=multiplicaMatrizes
+202 7
+205 6
+208 9
+209 3
+212 131
+213 3275
+214 81875
+215 843750
+219 4
+fl=/home/supertgo/programas/cursos/ufmg-information-systems/ed/pratica_4/src/matop.c
+fn=main
+111 946
+117 5
+120 13
+139 6
+140 3
+141 6
+142 3
+143 6
+144 3
+145 6
+146 3
+147 3
+148 3
+149 3
+150 1
+176 1
+177 5
+fn=parse_args
+49 6
+58 1
+59 1
+60 1
+61 1
+65 73
+68 3
+69 1
+70 1
+85 4
+86 1
+88 4
+89 1
+98 3
+99 3
+100 3
+101 3
+104 3
+fl=???
+fn=(below main)
+0 12
+fn=???
+0 14643
+fn=__libc_csu_init
+0 34
+summary: 5816968
