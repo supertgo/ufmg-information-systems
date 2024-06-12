@@ -3,13 +3,13 @@
 
 #include <memory>
 #include <string>
-#include <list>
+#include <vector>
 
 class Node {
 public:
   std::string word;
-  std::list<int> pages;
-  std::shared_ptr<Node> left, right, parent;
+  std::vector<int> pages;
+  std::shared_ptr<Node> left, right;
   void update_height();
 
   int height;
